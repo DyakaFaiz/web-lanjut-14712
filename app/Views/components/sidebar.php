@@ -1,3 +1,4 @@
+<!-- ======= Sidebar ======= -->
 <aside id="sidebar" class="sidebar">
 
     <ul class="sidebar-nav" id="sidebar-nav">
@@ -15,14 +16,18 @@
                 <span>Keranjang</span>
             </a>
         </li>
-
-        <li class="nav-item">
-            <a class="nav-link <?php echo (uri_string() == 'produk') ? "" : "collapsed" ?>" href="<?php echo base_url() ?>produk">
-                <i class="bi bi-receipt"></i>
-                <span>Produk</span>
-            </a>
-        </li>
-
+        <?php
+        if (session()->get('role') == 'admin') {
+        ?>
+            <li class="nav-item">
+                <a class="nav-link <?php echo (uri_string() == 'produk') ? "" : "collapsed" ?>" href="<?php echo base_url() ?>produk">
+                    <i class="bi bi-receipt"></i>
+                    <span>Produk</span>
+                </a>
+            </li>
+        <?php
+        }
+        ?>
     </ul>
 
 </aside><!-- End Sidebar-->
