@@ -11,7 +11,7 @@ if (uri_string() != "") {
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>- Toko - <?php echo $hlm ?></title>
+    <title>Tables / Data - NiceAdmin Bootstrap Template</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -36,27 +36,31 @@ if (uri_string() != "") {
     <link href="<?php echo base_url() ?>public/NiceAdmin/assets/css/style.css" rel="stylesheet">
 
     <!-- =======================================================
-		  * Template Name: NiceAdmin
-		  * Updated: Mar 09 2023 with Bootstrap v5.2.3
-		  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-		  * Author: BootstrapMade.com
-		  * License: https://bootstrapmade.com/license/
-		  ======================================================== -->
+  * Template Name: NiceAdmin
+  * Updated: Mar 09 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
 
+    <!-- ======= Header ======= -->
     <?= $this->include('components/header') ?>
+    <!-- End Header -->
 
+    <!-- ======= Sidebar ======= -->
     <?= $this->include('components/sidebar') ?>
+    <!-- End Sidebar-->
 
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1><?php echo $hlm ?></h1>
+            <h1>Data Tables</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item">Home</li>
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <?php
                     if ($hlm != "Home") {
                     ?>
@@ -75,7 +79,10 @@ if (uri_string() != "") {
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $hlm ?></h5>
+                            <!-- Table with stripped rows -->
                             <?= $this->renderSection('content') ?>
+                            <!-- End Table with stripped rows -->
+
                         </div>
                     </div>
 
@@ -85,9 +92,14 @@ if (uri_string() != "") {
 
     </main><!-- End #main -->
 
+    <!-- ======= Footer ======= -->
     <?= $this->include('components/footer') ?>
+    <!-- End Footer -->
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- JQUERY -->
+    <script src="<?php echo base_url() ?>public/NiceAdmin/assets/js/jquery-3.3.1.min.js"></script>
 
     <!-- Vendor JS Files -->
     <script src="<?php echo base_url() ?>public/NiceAdmin/assets/vendor/apexcharts/apexcharts.min.js"></script>
@@ -102,6 +114,7 @@ if (uri_string() != "") {
     <!-- Template Main JS File -->
     <script src="<?php echo base_url() ?>public/NiceAdmin/assets/js/main.js"></script>
     <?= $this->renderSection('script') ?>
+
 </body>
 
 </html>

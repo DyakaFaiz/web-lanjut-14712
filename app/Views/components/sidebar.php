@@ -25,6 +25,12 @@
                     <span>Produk</span>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link <?php echo (uri_string() == 'user') ? "" : "collapsed" ?>" href="<?php echo base_url() ?>user">
+                    <i class="bi bi-person-fill"></i>
+                    <span>Manajemen User</span>
+                </a>
+            </li>
         <?php
         }
         ?>
