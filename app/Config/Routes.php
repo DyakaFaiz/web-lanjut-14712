@@ -51,6 +51,7 @@ $routes->add('/produk', 'ProdukController::create', ['filter' => 'auth']);
 $routes->add('/produk/edit/(:any)', 'ProdukController::edit/$1', ['filter' => 'auth']);
 $routes->get('/produk/delete(:any)', 'ProdukController::delete/$1', ['filter' => 'auth']);
 
+$routes->get('/user', 'Page::manageUser', ['filter' => 'auth']);
 /*
  * --------------------------------------------------------------------
  * Additional Routing

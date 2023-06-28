@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\ProdukModel;
+use App\Models\UserModel;
 
 class Page extends BaseController
 {
@@ -18,5 +19,13 @@ class Page extends BaseController
         $data['produks'] = $produk;
 
         return view('pages/produk_view', $data);
+    }
+    public function manageUser()
+    {
+        $userModel = new UserModel();
+        $user = $userModel->findAll();
+        $data['users'] = $user;
+
+        return view('pages/manageUser_view', $data);
     }
 }
