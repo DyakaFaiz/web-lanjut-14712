@@ -23,16 +23,21 @@ class AuthController extends BaseController
             $dataUser = $this->user->where(['username' => $username])->first();
 
             if ($dataUser) {
-                if (md5($password) == $dataUser['password']) {
-                    session()->set([
-                        'username' => $dataUser['username'],
-                        'role' => $dataUser['role'],
-                        'isLoggedIn' => TRUE
-                    ]);
+                if ($dataUser['is_aktif'] == TRUE) {
+                    if (md5($password) == $dataUser['password']) {
+                        session()->set([
+                            'username' => $dataUser['username'],
+                            'role' => $dataUser['role'],
+                            'isLoggedIn' => TRUE,
+                        ]);
 
-                    return redirect()->to(base_url('/'));
+                        return redirect()->to(base_url('/'));
+                    } else {
+                        session()->setFlashdata('failed', 'Username & Password Salah');
+                        return redirect()->back();
+                    }
                 } else {
-                    session()->setFlashdata('failed', 'Username & Password Salah');
+                    session()->setFlashdata('failed', 'Anda saat ini masih belum aktif, lakukan aktivasi terlebih dahulu');
                     return redirect()->back();
                 }
             } else {
