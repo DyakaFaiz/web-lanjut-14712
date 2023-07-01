@@ -35,7 +35,7 @@ class UserController extends BaseController
                 'username' => $this->request->getPost('username'),
                 'role' => $this->request->getPost('role'),
                 'password' => $md5,
-                'is_aktif' => $this->request->getPost('is_aktif')
+                'is_aktif' => isset($_POST['is_aktif'])
             ];
             $this->user->insert($dataForm);
 
