@@ -67,4 +67,19 @@ class Validation extends BaseConfig
             'integer' => '{field} Harus Angka<br>'
         ],
     ];
+
+    public $user = [
+        'username' => [
+            'rules' => 'required|min_length[4]',
+        ],
+        'role' => [
+            'rules' => 'required|min_length[4]',
+        ],
+        'password' => [
+            'rules' => 'required|min_length[3]',
+        ],
+        'is_aktif' => [
+            'rules' => 'required|integer'
+        ],
+    ];
 }

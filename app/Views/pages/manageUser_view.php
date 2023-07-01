@@ -112,12 +112,12 @@ if (session()->getFlashData('failed')) {
                         <input type="text" name="password" class="form-control" id="password" placeholder="Password" required>
                     </div>
                     <div class="form-group">
-                        <label for="name">Jumlah</label>
+                        <label for="name">role</label>
                         <input type="text" name="role" class="form-control" id="role" placeholder="Role" required>
                     </div>
                     <div class="form-group">
-                        <label for="name">Jumlah</label>
-                        <input type="text" name="role" class="form-control" id="role" placeholder="Role" required>
+                        <label for="name">Aktif</label>
+                        <input type="number" name="is_aktif" class="form-control" id="is_aktif" placeholder="Aktif?" required>
                     </div>
                 </div>
                 <div class="modal-footer">
