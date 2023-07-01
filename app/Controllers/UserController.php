@@ -51,12 +51,16 @@ class UserController extends BaseController
         $validate = $this->validation->run($data, 'user');
         $errors = $this->validation->getErrors();
 
+        $enkrip = $this->request->getPost('password');
+        $md5 = md5($enkrip);
+
+
         if (!$errors) {
             $dataForm = [
                 'username' => $this->request->getPost('username'),
                 'role' => $this->request->getPost('role'),
-                'password' => $this->request->getPost('password'),
-                'is_aktif' => $this->request->getPost('is_aktif')
+                'password' => $md5,
+                'is_aktif' => isset($_POST['is_aktif'])
             ];
 
             $this->user->update($id, $dataForm);

@@ -31,7 +31,7 @@ if (session()->getFlashData('failed')) {
             <th scope="col">Username</th>
             <th scope="col">Role</th>
             <th scope="col">Password</th>
-            <th scope="col">Aktif</th>
+            <th scope="col">Status</th>
         </tr>
     </thead>
     <tbody>
@@ -41,7 +41,12 @@ if (session()->getFlashData('failed')) {
                 <td><?php echo $user['username'] ?></td>
                 <td><?php echo $user['role'] ?></td>
                 <td><?php echo $user['password'] ?></td>
-                <td><?php echo $user['is_aktif'] ?></td>
+                <td><?php
+                    if ($user['is_aktif'] == 1) {
+                        echo "Aktif";
+                    } else if ($user['is_aktif'] == 0) {
+                        echo "Tidak Aktif";
+                    } ?></td>
                 <td>
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editModal-<?= $user['id'] ?>">
                         Ubah
@@ -75,8 +80,10 @@ if (session()->getFlashData('failed')) {
                                     <input type="text" name="role" class="form-control" id="role" value="<?= $user['role'] ?>" placeholder="Role" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="name">Aktif</label>
-                                    <input type="text" name="is_aktif" class="form-control" id="is_aktif" value="<?= $user['is_aktif'] ?>" placeholder="Keaktifan" required>
+                                    <select name="is_aktif">
+                                        <option value="Aktif">Aktif</option>
+                                        <option value="Tidak Aktif">Tidak Aktif</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -116,8 +123,10 @@ if (session()->getFlashData('failed')) {
                         <input type="text" name="role" class="form-control" id="role" placeholder="Role" required>
                     </div>
                     <div class="form-group">
-                        <label for="name">Aktif</label>
-                        <input type="number" name="is_aktif" class="form-control" id="is_aktif" placeholder="Aktif?" required>
+                        <select name="is_aktif">
+                            <option value="Aktif">Aktif</option>
+                            <option value="Tidak Aktif">Tidak Aktif</option>
+                        </select>
                     </div>
                 </div>
                 <div class="modal-footer">
