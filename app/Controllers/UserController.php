@@ -27,14 +27,16 @@ class UserController extends BaseController
         $validate = $this->validation->run($data, 'user');
         $errors = $this->validation->getErrors();
 
+        $enkrip = $this->request->getPost('password');
+        $md5 = md5($enkrip);
+
         if (!$errors) {
             $dataForm = [
                 'username' => $this->request->getPost('username'),
                 'role' => $this->request->getPost('role'),
-                'password' => $this->request->getPost('password'),
+                'password' => $md5,
                 'is_aktif' => $this->request->getPost('is_aktif')
             ];
-
             $this->user->insert($dataForm);
 
             return redirect('user')->with('success', 'Data Berhasil Ditambah');
