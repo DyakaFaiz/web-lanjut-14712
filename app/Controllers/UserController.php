@@ -60,7 +60,7 @@ class UserController extends BaseController
                 'username' => $this->request->getPost('username'),
                 'role' => $this->request->getPost('role'),
                 'password' => $md5,
-                'is_aktif' => isset($_POST['is_aktif'])
+                'is_aktif' => isset($_GET['is_aktif'])
             ];
 
             $this->user->update($id, $dataForm);

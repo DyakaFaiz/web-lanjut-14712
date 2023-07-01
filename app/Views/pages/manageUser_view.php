@@ -80,7 +80,8 @@ if (session()->getFlashData('failed')) {
                                     <input type="text" name="role" class="form-control" id="role" value="<?= $user['role'] ?>" placeholder="Role" required>
                                 </div>
                                 <div class="form-group">
-                                    <select name="is_aktif">
+                                    <label for="isi">Status</label><br>
+                                    <select id="isi" name="is_aktif" class="btn btn-primary dropdown-toggle">
                                         <option value="Aktif">Aktif</option>
                                         <option value="Tidak Aktif">Tidak Aktif</option>
                                     </select>
@@ -122,8 +123,9 @@ if (session()->getFlashData('failed')) {
                         <label for="name">role</label>
                         <input type="text" name="role" class="form-control" id="role" placeholder="Role" required>
                     </div>
-                    <div class="form-group">
-                        <select name="is_aktif">
+                    <div class="dropdown">
+                        <label for="isi">Status</label><br>
+                        <select id="isi" name="is_aktif" class="btn btn-primary dropdown-toggle">
                             <option value="Aktif">Aktif</option>
                             <option value="Tidak Aktif">Tidak Aktif</option>
                         </select>
