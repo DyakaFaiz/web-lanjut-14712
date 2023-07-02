@@ -79,7 +79,7 @@ class Validation extends BaseConfig
             'rules' => 'required|min_length[3]',
         ],
         'is_aktif' => [
-            'rules' => 'required|min_length[2]'
+            'rules' => 'required|min_length[1]'
         ],
     ];
 }

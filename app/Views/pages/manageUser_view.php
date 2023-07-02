@@ -81,9 +81,9 @@ if (session()->getFlashData('failed')) {
                                 </div>
                                 <div class="form-group">
                                     <label for="isi">Status</label><br>
-                                    <select id="isi" name="is_aktif" class="btn btn-primary dropdown-toggle">
-                                        <option value="Aktif">Aktif</option>
-                                        <option value="Tidak Aktif">Tidak Aktif</option>
+                                    <select id="is_aktif" name="is_aktif" class="btn btn-primary dropdown-toggle">
+                                        <option value="1">Aktif</option>
+                                        <option value="0">Tidak Aktif</option>
                                     </select>
                                 </div>
                             </div>
@@ -123,11 +123,11 @@ if (session()->getFlashData('failed')) {
                         <label for="name">role</label>
                         <input type="text" name="role" class="form-control" id="role" placeholder="Role" required>
                     </div>
-                    <div class="dropdown">
-                        <label for="isi">Status</label><br>
-                        <select id="isi" name="is_aktif" class="btn btn-primary dropdown-toggle">
-                            <option value="Aktif">Aktif</option>
-                            <option value="Tidak Aktif">Tidak Aktif</option>
+                    <div class="form-group">
+                        <label>Status</label><br>
+                        <select id="status" name="is_aktif" class="btn btn-primary dropdown-toggle">
+                            <option value="1">Aktif</option>
+                            <option value="0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ">Tidak Aktif</option>
                         </select>
                     </div>
                 </div>

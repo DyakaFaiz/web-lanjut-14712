@@ -23,7 +23,7 @@ class AuthController extends BaseController
             $dataUser = $this->user->where(['username' => $username])->first();
 
             if ($dataUser) {
-                if ($dataUser['is_aktif'] == TRUE) {
+                if ($dataUser['is_aktif'] == 1) {
                     if (md5($password) == $dataUser['password']) {
                         session()->set([
                             'username' => $dataUser['username'],

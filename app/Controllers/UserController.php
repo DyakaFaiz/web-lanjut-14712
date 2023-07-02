@@ -25,17 +25,23 @@ class UserController extends BaseController
     {
         $data = $this->request->getPost();
         $validate = $this->validation->run($data, 'user');
+        $cekStatus = $this->request->getPost('is_aktif');
         $errors = $this->validation->getErrors();
 
         $enkrip = $this->request->getPost('password');
         $md5 = md5($enkrip);
 
+        if ($cekStatus == "0") {
+            $status = isset($_GET['is_aktif']);
+        } else {
+            $status = isset($_POST['is_aktif']);
+        }
+
         if (!$errors) {
             $dataForm = [
                 'username' => $this->request->getPost('username'),
                 'role' => $this->request->getPost('role'),
-                'password' => $md5,
-                'is_aktif' => isset($_POST['is_aktif'])
+                'is_aktif' => $status
             ];
             $this->user->insert($dataForm);
 
@@ -49,18 +55,23 @@ class UserController extends BaseController
     {
         $data = $this->request->getPost();
         $validate = $this->validation->run($data, 'user');
+        $cekStatus = $this->request->getPost('is_aktif');
         $errors = $this->validation->getErrors();
-
         $enkrip = $this->request->getPost('password');
         $md5 = md5($enkrip);
 
+        if ($cekStatus == "0") {
+            $status = isset($_GET['is_aktif']);
+        } else {
+            $status = isset($_POST['is_aktif']);
+        }
 
         if (!$errors) {
             $dataForm = [
                 'username' => $this->request->getPost('username'),
                 'role' => $this->request->getPost('role'),
-                'password' => $md5,
-                'is_aktif' => isset($_GET['is_aktif'])
+                'password' => $this->request->getPost('password'),
+                'is_aktif' => $status
             ];
 
             $this->user->update($id, $dataForm);
@@ -73,8 +84,6 @@ class UserController extends BaseController
 
     public function delete($id)
     {
-        $dataProduk = $this->user->find($id);
-
         $this->user->delete($id);
 
         return redirect('user')->with('success', 'Data Berhasil Dihapus');
