@@ -41,6 +41,7 @@ class UserController extends BaseController
             $dataForm = [
                 'username' => $this->request->getPost('username'),
                 'role' => $this->request->getPost('role'),
+                'password' => $md5,
                 'is_aktif' => $status
             ];
             $this->user->insert($dataForm);

@@ -33,6 +33,9 @@ $routes->get('/login', 'AuthController::login');
 $routes->add('/login', 'AuthController::login');
 $routes->get('/logout', 'AuthController::logout');
 
+$routes->get('/register', 'RegistrasiController::index');
+$routes->post('/register', 'RegistrasiController::register');
+
 $routes->get('/', 'Home::index', ['filter' => 'auth']);
 
 $routes->get('/keranjang', 'TransaksiController::cart_show', ['filter' => 'auth']);
@@ -49,7 +52,7 @@ $routes->get('/produk', 'Page::produk', ['filter' => 'auth']);
 $routes->get('/produk', 'ProdukController::index', ['filter' => 'auth']);
 $routes->add('/produk', 'ProdukController::create', ['filter' => 'auth']);
 $routes->add('/produk/edit/(:any)', 'ProdukController::edit/$1', ['filter' => 'auth']);
-$routes->get('/produk/delete(:any)', 'ProdukController::delete/$1', ['filter' => 'auth']);
+$routes->get('/produk/delete/(:any)', 'ProdukController::delete/$1', ['filter' => 'auth']);
 
 $routes->get('/user', 'Page::manageUser', ['filter' => 'auth']);
 $routes->get('/user', 'UserController::index', ['filter' => 'auth']);

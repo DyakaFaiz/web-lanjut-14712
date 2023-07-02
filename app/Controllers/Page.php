@@ -11,6 +11,10 @@ class Page extends BaseController
     {
         return view('pages/keranjang_view');
     }
+    public function registrasi()
+    {
+        return view('pages/registrasi_view');
+    }
 
     public function produk()
     {

@@ -20,61 +20,55 @@ $password = [
             <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
                 <div class="d-flex justify-content-center py-4">
-                    <a href="#" class="logo d-flex align-items-center w-auto">
+                    <a href="index.html" class="logo d-flex align-items-center w-auto">
                         <img src="<?php echo base_url() ?>public/NiceAdmin/assets/img/logo.png" alt="">
-                        <span class="d-none d-lg-block">WarungKU</span>
+                        <span class="d-none d-lg-block">warungKU</span>
                     </a>
                 </div><!-- End Logo -->
-
                 <div class="card mb-3">
-
                     <div class="card-body">
-
                         <div class="pt-4 pb-2">
-                            <h5 class="card-title text-center pb-0 fs-4">Login to Your Account</h5>
-                            <p class="text-center small">Enter your username & password to login</p>
+                            <h5 class="card-title text-center pb-0 fs-4">Register an Account</h5>
+                            <p class="text-center small">Enter your personal details to create account</p>
                         </div>
 
-                        <?php
-                        if (session()->getFlashData('failed')) {
-                        ?>
+                        <?php if (session()->getFlashData('errors')) : ?>
                             <div class="col-12 alert alert-danger" role="alert">
-                                <hr>
-                                <p class="mb-0">
-                                    <?= session()->getFlashData('failed') ?>
-                                </p>
+                                <ul>
+                                    <?php foreach (session()->getFlashData('errors') as $error) : ?>
+                                        <li><?= $error ?></li>
+                                    <?php endforeach; ?>
+                                </ul>
                             </div>
-                        <?php
-                        }
-                        ?>
-                        <?= form_open('login', 'class = "row g-3 needs-validation"') ?>
+                        <?php endif; ?>
+
+                        <?= form_open('register', 'class = "row g-3 needs-validation"') ?>
                         <div class="col-12">
-                            <label for="yourUsername" class="form-label">Username</label>
+                            <label for="username" class="form-label">Username</label>
                             <div class="input-group has-validation">
                                 <span class="input-group-text" id="inputGroupPrepend">@</span>
                                 <?= form_input($username) ?>
-                                <div class="invalid-feedback">Please enter your username.</div>
+                                <div class="invalid-feedback">Please enter a username.</div>
                             </div>
                         </div>
 
                         <div class="col-12">
-                            <label for="yourPassword" class="form-label">Password</label>
+                            <label for="password" class="form-label">Password</label>
                             <?= form_password($password) ?>
-                            <div class="invalid-feedback">Please enter your password!</div>
+                            <div class="invalid-feedback">Please enter a password.</div>
                         </div>
-                        <div class="col-12 text-center">
-                            <p class="mb-0">Don't have an account? <a href="<?= base_url('/register') ?>">Register</a></p>
-                        </div>
-                        <div class="col-12">
-                            <?= form_submit('submit', 'Login', ['class' => 'btn btn-primary w-100']) ?>
-                        </div>
-                        <?= form_close() ?>
 
+                        <div class="col-12">
+                            <?= form_submit('submit', 'Register', ['class' => 'btn btn-primary w-100']) ?>
+                        </div>
+
+                        <div class="col-12 text-center">
+                            <p class="mb-0">Already have an account? <a href="<?= base_url('/login_view') ?>">Login</a></p>
+                        </div>
+
+                        <?= form_close() ?>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
 </section>
 <?= $this->endSection() ?>
