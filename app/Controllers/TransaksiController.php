@@ -31,6 +31,7 @@ class TransaksiController extends BaseController
             'qty'   => 1,
             'price'    => $this->request->getPost('harga'),
             'name'    => $this->request->getPost('nama'),
+            'diskon'    => $this->request->getPost('diskon'),
             'options' => array('foto' => $this->request->getPost('foto'))
         ));
         session()->setflashdata('success', 'Produk berhasil ditambahkan ke keranjang. (<a href="' . base_url() . 'keranjang">Lihat</a>)');

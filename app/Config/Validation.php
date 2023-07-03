@@ -51,6 +51,9 @@ class Validation extends BaseConfig
         'jumlah' => [
             'rules' => 'required|integer',
         ],
+        'diskon' => [
+            'rules' => 'required|integer',
+        ],
     ];
 
     public $barang_errors = [
@@ -63,6 +66,10 @@ class Validation extends BaseConfig
             'integer' => '{field} Harus Angka<br>'
         ],
         'jumlah' => [
+            'required' => '{field} Harus Diisi<br>',
+            'integer' => '{field} Harus Angka<br>'
+        ],
+        'diskon' => [
             'required' => '{field} Harus Diisi<br>',
             'integer' => '{field} Harus Angka<br>'
         ],

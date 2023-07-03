@@ -68,3 +68,788 @@ INFO - 2023-07-03 08:34:23 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-07-03 08:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-07-03 08:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-07-03 08:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 08:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 09:39:12 --> Undefined array key "diskon"
+in APPPATH\Views\pages\produk_view.php on line 46.
+ 1 APPPATH\Views\pages\produk_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskon"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\produk_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\produk_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/produk_view', [], true)
+ 5 APPPATH\Controllers\Page.php(25): view('pages/produk_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 09:39:16 --> Undefined array key "diskon"
+in APPPATH\Views\pages\produk_view.php on line 46.
+ 1 APPPATH\Views\pages\produk_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskon"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\produk_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\produk_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/produk_view', [], true)
+ 5 APPPATH\Controllers\Page.php(25): view('pages/produk_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 09:41:20 --> syntax error, unexpected single-quoted string "%", expecting "," or ";"
+in APPPATH\Views\pages\produk_view.php on line 46.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/produk_view', [], true)
+ 3 APPPATH\Controllers\Page.php(25): view('pages/produk_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 09:41:21 --> syntax error, unexpected single-quoted string "%", expecting "," or ";"
+in APPPATH\Views\pages\produk_view.php on line 46.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/produk_view', [], true)
+ 3 APPPATH\Controllers\Page.php(25): view('pages/produk_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 09:41:21 --> syntax error, unexpected single-quoted string "%", expecting "," or ";"
+in APPPATH\Views\pages\produk_view.php on line 46.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/produk_view', [], true)
+ 3 APPPATH\Controllers\Page.php(25): view('pages/produk_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:44:51 --> Cart Class Initialized
+INFO - 2023-07-03 09:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:44:56 --> Cart Class Initialized
+INFO - 2023-07-03 09:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:44:58 --> Cart Class Initialized
+INFO - 2023-07-03 09:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:45:00 --> Cart Class Initialized
+INFO - 2023-07-03 09:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:47:16 --> Cart Class Initialized
+INFO - 2023-07-03 09:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:47:36 --> Cart Class Initialized
+INFO - 2023-07-03 09:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:47:36 --> Cart Class Initialized
+INFO - 2023-07-03 09:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:47:37 --> Cart Class Initialized
+INFO - 2023-07-03 09:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:47:37 --> Cart Class Initialized
+INFO - 2023-07-03 09:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:47:37 --> Cart Class Initialized
+INFO - 2023-07-03 09:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:47:38 --> Cart Class Initialized
+INFO - 2023-07-03 09:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:49:15 --> Cart Class Initialized
+INFO - 2023-07-03 09:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:49:16 --> Cart Class Initialized
+INFO - 2023-07-03 09:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:51:29 --> Cart Class Initialized
+INFO - 2023-07-03 09:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:23 --> Cart Class Initialized
+INFO - 2023-07-03 09:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:31 --> Cart Class Initialized
+INFO - 2023-07-03 09:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:53 --> Cart Class Initialized
+INFO - 2023-07-03 09:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:55 --> Cart Class Initialized
+INFO - 2023-07-03 09:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:52:57 --> Cart Class Initialized
+INFO - 2023-07-03 09:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:53:46 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:53:46 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:53:46 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:53:46 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:53:47 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:53:47 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:55:03 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:55:03 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:55:04 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:55:04 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:55:04 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:55:04 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:55:04 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:55:04 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:55:45 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:55:45 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:55:46 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:55:46 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:55:46 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:55:46 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:55:46 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:55:46 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:03 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:56:03 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:04 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:56:04 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:04 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:56:04 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:04 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:56:04 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:04 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:56:04 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:29 --> Cart Class Initialized
+INFO - 2023-07-03 09:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:56:56 --> Cart Class Initialized
+INFO - 2023-07-03 09:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:57:09 --> Cart Class Initialized
+INFO - 2023-07-03 09:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:57:11 --> Cart Class Initialized
+INFO - 2023-07-03 09:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:57:23 --> Cart Class Initialized
+INFO - 2023-07-03 09:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:57:24 --> Cart Class Initialized
+INFO - 2023-07-03 09:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:57:55 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:57:55 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:58:23 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:58:23 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:58:23 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:58:23 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 09:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 09:58:23 --> Cart Class Initialized
+CRITICAL - 2023-07-03 09:58:23 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:00:51 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:00:51 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:00:52 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:00:52 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:00:52 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:00:52 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:00:52 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:00:52 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:00:52 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:00:52 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:00:53 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:00:53 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:01:33 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:01:33 --> Undefined array key "diskonn"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskonn"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:01:34 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:01:34 --> Undefined array key "diskonn"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "diskonn"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:01:39 --> Cart Class Initialized
+INFO - 2023-07-03 10:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:01:50 --> Cart Class Initialized
+INFO - 2023-07-03 10:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:02:59 --> Cart Class Initialized
+INFO - 2023-07-03 10:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 10:03:29 --> Undefined array key "disc"
+in APPPATH\Views\pages\produk_view.php on line 46.
+ 1 APPPATH\Views\pages\produk_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\produk_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\produk_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/produk_view', [], true)
+ 5 APPPATH\Controllers\Page.php(25): view('pages/produk_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:19 --> Cart Class Initialized
+INFO - 2023-07-03 10:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:21 --> Cart Class Initialized
+INFO - 2023-07-03 10:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:21 --> Cart Class Initialized
+INFO - 2023-07-03 10:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:21 --> Cart Class Initialized
+INFO - 2023-07-03 10:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:24:22 --> Cart Class Initialized
+INFO - 2023-07-03 10:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:24:57 --> Cart Class Initialized
+INFO - 2023-07-03 10:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:24:57 --> Cart Class Initialized
+INFO - 2023-07-03 10:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:24:58 --> Cart Class Initialized
+INFO - 2023-07-03 10:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:24:58 --> Cart Class Initialized
+INFO - 2023-07-03 10:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:25:55 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:25:55 --> number_to_currency(): Argument #1 ($num) must be of type float, null given, called in C:\xampp\htdocs\projekToko\app\Views\pages\keranjang_view.php on line 38
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): number_to_currency(null, '%')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:28:13 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:28:13 --> number_to_currency(): Argument #1 ($num) must be of type float, null given, called in C:\xampp\htdocs\projekToko\app\Views\pages\keranjang_view.php on line 38
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): number_to_currency(null, '%')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:28:13 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:28:13 --> number_to_currency(): Argument #1 ($num) must be of type float, null given, called in C:\xampp\htdocs\projekToko\app\Views\pages\keranjang_view.php on line 38
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): number_to_currency(null, '%')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:28:13 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:28:13 --> number_to_currency(): Argument #1 ($num) must be of type float, null given, called in C:\xampp\htdocs\projekToko\app\Views\pages\keranjang_view.php on line 38
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): number_to_currency(null, '%')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:28:14 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:28:14 --> number_to_currency(): Argument #1 ($num) must be of type float, null given, called in C:\xampp\htdocs\projekToko\app\Views\pages\keranjang_view.php on line 38
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): number_to_currency(null, '%')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:28:17 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:28:17 --> number_to_currency(): Argument #1 ($num) must be of type float, null given, called in C:\xampp\htdocs\projekToko\app\Views\pages\keranjang_view.php on line 38
+in SYSTEMPATH\Helpers\number_helper.php on line 113.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): number_to_currency(null, '%')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:28:40 --> Cart Class Initialized
+INFO - 2023-07-03 10:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:29:03 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:29:03 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:29:10 --> Cart Class Initialized
+INFO - 2023-07-03 10:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:29:20 --> Cart Class Initialized
+INFO - 2023-07-03 10:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:29:26 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:29:26 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:29:35 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:29:35 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:29:35 --> Cart Class Initialized
+CRITICAL - 2023-07-03 10:29:35 --> Undefined array key "disc"
+in APPPATH\Views\pages\keranjang_view.php on line 38.
+ 1 APPPATH\Views\pages\keranjang_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "disc"', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\keranjang_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/keranjang_view', [], true)
+ 5 APPPATH\Controllers\TransaksiController.php(24): view('pages/keranjang_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TransaksiController->cart_show()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransaksiController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:29:39 --> Cart Class Initialized
+INFO - 2023-07-03 10:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:30:35 --> Cart Class Initialized
+INFO - 2023-07-03 10:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:31:50 --> Cart Class Initialized
+INFO - 2023-07-03 10:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:01 --> Cart Class Initialized
+INFO - 2023-07-03 10:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 10:35:52 --> Array to string conversion
+in APPPATH\Views\pages\produk_view.php on line 44.
+ 1 APPPATH\Views\pages\produk_view.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\produk_view.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projekToko\\app\\Views\\pages\\produk_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/produk_view', [], true)
+ 5 APPPATH\Controllers\Page.php(25): view('pages/produk_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-03 10:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 10:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

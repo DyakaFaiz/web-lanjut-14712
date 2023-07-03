@@ -31,6 +31,7 @@ if (session()->getFlashData('failed')) {
             <th scope="col">Nama</th>
             <th scope="col">Harga</th>
             <th scope="col">Jumlah</th>
+            <th scope="col">Diskon</th>
             <th scope="col">Foto</th>
             <th scope="col"></th>
         </tr>
@@ -40,8 +41,9 @@ if (session()->getFlashData('failed')) {
             <tr>
                 <th scope="row"><?php echo $index + 1 ?></th>
                 <td><?php echo $produk['nama'] ?></td>
-                <td><?php echo $produk['harga'] ?></td>
+                <td><s>Harga Normal </s><?php echo $produk['harga'] ?><br>Jadi <?= $produk['harga'] ?></td>
                 <td><?php echo $produk['jumlah'] ?></td>
+                <td><?php echo $produk['diskon'] ?> %</td>
                 <td><img src="<?php echo base_url() . "public/img/" . $produk['foto'] ?>" width="100px"></td>
                 <td>
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editModal-<?= $produk['id'] ?>">
@@ -74,6 +76,10 @@ if (session()->getFlashData('failed')) {
                                 <div class="form-group">
                                     <label for="name">Jumlah</label>
                                     <input type="text" name="jumlah" class="form-control" id="jumlah" value="<?= $produk['jumlah'] ?>" placeholder="Jumlah Barang" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Diskon</label>
+                                    <input type="text" name="diskon" class="form-control" id="diskon" value="<?= $produk['diskon'] ?>" placeholder="Diskon Barang" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="name">Keterangan</label>
@@ -126,6 +132,10 @@ if (session()->getFlashData('failed')) {
                     <div class="form-group">
                         <label for="name">Jumlah</label>
                         <input type="text" name="jumlah" class="form-control" id="jumlah" placeholder="Jumlah Barang" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Diskon</label>
+                        <input type="text" name="diskon" class="form-control" id="diskon" placeholder="Diskon Barang" required>
                     </div>
                     <div class="form-group">
                         <label for="name">Keterangan</label>
